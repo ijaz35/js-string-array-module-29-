@@ -41,4 +41,7 @@ for (const product of arrayOfProducts) {
         laptops.push(product);
     }
 }
-console.log(laptops);
+// console.log(laptops);
+
+const str1 = 'Bangladesh is a beautiful country.';
+console.log(str1.endsWith("country")); // console show false because it ends with a full stop(.)
