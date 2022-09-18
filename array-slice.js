@@ -1,5 +1,5 @@
 const numbers = [3, 6, 9, 19, 15, 11, 45, 87];
-//.slice(start, end) method is used to seperate paortion from array. it returns a new array without end index value. Here the main array remains same in length.
+//.slice(start, end) method is used to seperate a particular portion from array. it returns a new array without end index value. Here the main array remains same in length.
 
 const slice = numbers.slice(2, 6);
 // console.log(slice);
@@ -9,4 +9,4 @@ const spliceNumbers = numbers.splice(4, 2, 91, 100);
 console.log(spliceNumbers);
 console.log(numbers);
 
-//so this method deletes two the elements from index 4 and adds 91,100 to the main array(numbers) 
+//so this method deletes two elements from index 4 and adds 91,100 to the main array(numbers) 
